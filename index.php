@@ -12,6 +12,16 @@
 </head>
 
 <body>
+    <header></header>
+    <main>
+        <div class="container">
+            <div id="app">
+                <div class="card" v-for="card in myArr">
+                    {{ card }}
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
