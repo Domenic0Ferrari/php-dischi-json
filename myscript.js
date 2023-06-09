@@ -8,9 +8,10 @@ createApp({
     },
     methods: {
         requestApi() {
-            axios.get('http://localhost:8080/php-dischi-json/my_index.php').then(response => this.arrDisc = response.data)
+            axios.get('http://localhost:8080/php-dischi-json/my_index.php').then(response => this.arrDisc = response.data);
         }
     },
     created() {
+        this.requestApi();
     }
 }).mount('#app');
