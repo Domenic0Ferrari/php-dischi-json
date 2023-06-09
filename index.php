@@ -16,8 +16,8 @@
     <main>
         <div class="container">
             <div id="app">
-                <div class="card" v-for="card in myArr">
-                    {{ card }}
+                <div class="card" v-for="card in arrDisc" :key="card.name">
+                    {{ card.name }}
                 </div>
             </div>
         </div>

@@ -22,3 +22,15 @@ main {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.card {
+    width: calc((100% - 6rem) / 3);
+    height: 300px;
+    border: 1px solid chocolate;
+}
