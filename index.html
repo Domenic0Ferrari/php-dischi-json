@@ -17,6 +17,7 @@
         <div class="container">
             <div id="app">
                 <div class="card" v-for="card in arrDisc">
+                    <img :src="card.img" alt="#" class="my-image">
                     <h2>{{ card.name }}</h2>
                     <div>{{ card.artist }}</div>
                     <h4>{{ card.year }}</h4>
